@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --watch",
-    "build": "node create-env.js && webpack"
+    "build": "webpack",
+    "build:netlify": "node create-env.js && build"
   },
   "repository": {
     "type": "git",
