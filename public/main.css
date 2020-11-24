@@ -288,6 +288,7 @@ a {
 .repository-filter {
     padding: 20px 0px;
     display: flex;
+    align-items: stretch;
     border-bottom: 1px solid var(--color-border);
 }
 
@@ -298,6 +299,7 @@ a {
 
 .repository-filter .btn {
     font-size: 14px;
+    padding: 4px 14px;
     background-color: #2EA44F;
     color: #FFFFFF;
 }
