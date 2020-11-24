@@ -11,6 +11,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# env files
+.env
+.env.*
+
 # editor
 /.idea
 
+# compiled
+public/main.js
