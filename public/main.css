@@ -364,11 +364,11 @@ a {
     padding: 0;
     align-items: center;
     list-style-type: none;
-    justify-content: space-between;
-    justify-items: center;
+    justify-content: center;
 }
 
 .footer-list .footer-list-item {
+    margin: 0 10px;
     color: #586069;
     align-items: center;
     display: flex;
@@ -490,6 +490,7 @@ a {
 
     .footer-list{
         width: 100%;
+        justify-content: space-between;
     }
 
     .footer-list .footer-list-item .footer-logo{
