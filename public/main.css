@@ -24,9 +24,10 @@ a {
     font-size: 14px;
     font-weight: 500;
     border-radius: 6px;
-    padding: 6px 14px;
+    padding: 3px 14px;
     display: inline-block;
     background-color: #FAFCFC;
+    line-height: 20px;
     border: 1px solid var(--color-border);
 }
 
@@ -55,6 +56,7 @@ a {
 
 .form-input input{
     border: none;
+    font-size: 14px;
     background-color: transparent;
 }
 
@@ -239,6 +241,7 @@ a {
 .sidebar .profile-group {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .sidebar .profile-avatar {
@@ -491,6 +494,10 @@ a {
     .footer-list{
         width: 100%;
         justify-content: space-between;
+    }
+
+    .footer-list .footer-list-item {
+        margin: 0;
     }
 
     .footer-list .footer-list-item .footer-logo{
